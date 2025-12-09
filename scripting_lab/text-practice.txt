@@ -1,0 +1,7 @@
+INFO  2024-12-08 user=alice  action=login     status=success
+WARN  2024-12-08 user=bob    action=download  status=slow
+ERROR 2024-12-08 user=alice  action=upload    status=failed
+debug 2024-12-08 user=carol  action=login     status=success
+INFO  2024-12-09 user=admin  action=reboot    status=success
+ERROR 2024-12-09 user=bob    action=delete    status=denied
+WARN  2024-12-09 user=carol  action=upload    status=retry

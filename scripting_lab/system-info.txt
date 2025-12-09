@@ -1,0 +1,15 @@
+User: ubuntu
+Home: /home/ubuntu
+Shell: /bin/bash
+
+Disk usage (df -h /):
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        15G  4.2G   11G  29% /
+
+Top 5 processes by memory:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         612  0.0  3.9 1775632 38584 ?       Ssl  17:48   0:01 /usr/lib/snapd/snapd
+root         188  0.0  2.7 288952 27292 ?        SLsl 17:48   0:00 /sbin/multipathd -d -s
+root         774  0.0  2.3 109996 23076 ?        Ssl  17:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         572  0.0  2.1  32512 20880 ?        Ss   17:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         587  0.0  1.9 1682904 19568 ?       Ssl  17:48   0:01 /snap/amazon-ssm-agent/11797/amazon-ssm-agent
